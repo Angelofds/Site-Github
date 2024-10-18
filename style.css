@@ -48,7 +48,17 @@ body::-webkit-scrollbar-thumb {
       margin: 0;
 }
 
+.Catégories h4{
+  text-align: left;
+  font-weight: 800;
+  //background-color: blue;
+}
 
+.Catégories h1{
+  text-align: left;
+  font-weight: 800;
+  //background-color: blue;
+}
 
 .Contact h4{
   text-align: left;
@@ -116,6 +126,12 @@ body::-webkit-scrollbar-thumb {
     "listee listee listee listee"
   ;
 }
+
+.Catégories{
+padding-top: 1rem;
+}
+
+
 .homeOut{
   grid-area: homeOut;
 
