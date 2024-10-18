@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FrenchCV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+</head>
+
+<div class="loader"><img src="media/loader.svg" alt="loading"></div>
+
+<script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                  "body").style.visibility = "hidden";
+                document.querySelector(
+                  ".loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                  ".loader").style.display = "none";
+                document.querySelector(
+                  "body").style.visibility = "visible";
+            }
+        };
+    </script>
+
+
+<div class="navPages">
+  <div class="HomeButton navicon home">
+    <a href="index.html" >
+    <img src="media/1.jpg" height="100%" width="100%" ></img>
+    </a>
+  </div>
+  <div id="Name" class="NAME">
+    <span>Angelo</span><span> Frossard--Da Silva</span>
+  </div>
+</div>
+<body>
+
+
+<div class="CvPage">
+<iframe src="media\Angelo Frossard Da Silva CV.pdf"   width="100%" height="auto%"></iframe>
+</div>
+
+
+
+
+</body>
