@@ -267,7 +267,7 @@ padding-left:1rem;
 }
 
 a {
-color:blue;
+//color:blue;
 
 }
 .encuberMargin {
@@ -350,7 +350,7 @@ grid-area: exp;
 
 button{
 
-  height:5rem;
+  height:auto;
   background-color:purple;
   color:#FFF;
   text-decoration: none;
@@ -1005,9 +1005,7 @@ p span{
 
 
   /*
-  BELOW CSS FOR SPORT PAGE  {
-
-  } PAGE !
+  BELOW CSS FOR SPORT PAGE  {} PAGE !
   */
   .bike {
   justify-content: center;
@@ -1200,36 +1198,25 @@ p span{
   .T2 { grid-area: T2; }
 
   /*
-  BELOW CSS FOR Indoor PAGE  {
-
-  } PAGE !
+  BELOW CSS FOR Indoor PAGE  {} PAGE !
   */
 
 #Indoor header{
   background-image: url(media/IDDD.jpg);
-background-size: 100%;
-
-
-}
-
-/*
-BELOW CSS FOR Project PAGE  {
-
-} PAGE !
-*/
+  background-size: 100%;
+  }
 
 #Project header{
-background-image: url(media/P.jpeg);
-background-size: 100%;
+  background-image: url(media/P.jpeg);
+  background-size: 100%;
+  }
 
-}
   /*
-  BELOW CSS FOR RESPONSSIVE {
-
-  } PAGE !
+  BELOW CSS FOR RESPONSSIVE {} PAGES !
   */
-@media (max-width: 2000px){
 
+@media (max-width: 2000px){
+  button{font-size: 18px;}
   img{padding: 0;width:100%;height: 100%;}
   .txt {font-size: 20px;}
   ul h3{margin-top:3rem;margin-bottom:6rem;}
@@ -1239,62 +1226,61 @@ background-size: 100%;
   .txt{font-size: 25px;padding-left:20px;padding-top:10; padding-bottom:266px;}
   .grid{padding: 10px 100px 10px 100px}
   h1{font-size: 32px;}
-
   //h1{background-color:orange;}
 }
-@media (max-width: 1500px){
 
+@media (max-width: 1500px){
+  button{font-size: 13.5px;}
   .grid{padding: 10px 100px 10px 100px}
   ul h3{margin-top:3rem;margin-bottom:6rem;}
   html {font-size: 13.5px;}
   #forcompexp{padding: 70px 70px 70px 70px;}
   p {font-size: 40px;padding-left:20px;padding-top:10;padding-bottom:200px;}
   .txt {font-size: 18.75px;padding-left:20px;padding-top:200px;padding-bottom:200px;}
-img{padding: 0;width:100%;height:100%;}
-h1{font-size: 30px;}
-
+  img{padding: 0;width:100%;height:100%;}
+  h1{font-size: 30px;}
   //h1{background-color:black;}
+}
 
 @media (max-width: 1250px){
-
+  button{font-size: 11.25px;}
   ul h3{margin-top:2.2rem;margin-bottom:4.2rem;}
   html {font-size: 11.25px;}
   #forcompexp{padding: 60px 60px 60px 60px;}
   img{padding: 0;width:100%;height:100%;}
   p {font-size: 35px;padding-left:20px;padding-top:10;padding-bottom:166.66px;}
   .txt {font-size: 15.75px;padding-left:20px;padding-top:166.66px;padding-bottom:166.66px;}
-h1{font-size: 28px;}
-
-//h1{background-color:brown;}
+  h1{font-size: 28px;}
+  //h1{background-color:brown;}
 }
 
 @media (max-width: 1000px){
-
+  button{font-size: 8px;}
   ul h3{margin-top:1.5rem;margin-bottom:4rem;}
   .txt {font-size: 16px;}
   html {font-size: 9px;}
   #forcompexp{padding: 50px 50px 50px 50px;}
   p {font-size: 35px;padding-left:20px;padding-top:10.33px;padding-bottom:133.33px;}
-.txt {font-size: 12.5px;padding-left:20px;padding-top:65px;padding-bottom:133.33px;}
-img{padding: 0;width:100%;height:100%;}
-h1{font-size: 26px;}
-
-//h1{background-color:gray;}
+  .txt {font-size: 12.5px;padding-left:20px;padding-top:65px;padding-bottom:133.33px;}
+  img{padding: 0;width:100%;height:100%;}
+  h1{font-size: 26px;}
+  //h1{background-color:gray;}
 }
-@media (max-width: 900px){
 
+@media (max-width: 900px){
+  button{font-size: 8px;}
   ul h3{margin-top:0.5rem;margin-bottom:4.2rem;}
   html {font-size: 8px;}
-   #forcompexp{padding: 40px 40px 40px 40px;}
+    #forcompexp{padding: 40px 40px 40px 40px;}
   p {font-size: 30px;padding-left:20px;padding-top:10;padding-bottom:120px;}
   .txt {font-size: 11.25px;padding-left:20px;padding-top:120px;padding-bottom:120px;}
-img{padding: 0;width:100%;height:100%;}
-h1{font-size: 24px;}
-
+  img{padding: 0;width:100%;height:100%;}
+  h1{font-size: 24px;}
   //h1{background-color:red;}
 }
-@media (max-width:800px){
 
+@media (max-width:800px){
+  button{font-size: 8px;}
   ul h3{margin-top:1.5 rem;margin-bottom:4 rem;}
   html {font-size: 8px;}
   ul h3{margin-top:4rem;margin-bottom:5rem;}
@@ -1302,17 +1288,17 @@ h1{font-size: 24px;}
   #forcompexp{padding: 30px 30px 30px 30px;}
   p {font-size: 25px;padding-left:20px;padding-top:10.66px;padding-bottom:106.66px;}
   .txt {font-size: 10px;padding-left:20px;padding-top:106.66px;padding-bottom:106.66px;}
-img{padding: 0;width:100%;height:auto;}
-h1{font-size: 22px;}
-
-//h1{background-color:pink;}
+  img{padding: 0;width:100%;height:auto;}
+  h1{font-size: 22px;}
+  //h1{background-color:pink;}
 }
-@media (max-width: 700px){
 
+@media (max-width: 700px){
+  button{font-size: 8px;}
   ul h3{margin-top:4rem;margin-bottom:5rem;}
   .txt {font-size: 10px;}
   .grid{padding: 10px 10px 10px 10px}
-  html {font-size: 9px;}
+  html {font-size: 8px;}
   #forcompexp{padding: 20px 20px 20px 20px;}
   p {font-size: 20px;padding-left:20px;padding-top:10.33px;padding-bottom:93.33px;}
   .txt {font-size:12px;padding-left:20px;padding-top:93.33px;padding-bottom:93.33px;}
@@ -1320,7 +1306,9 @@ h1{font-size: 22px;}
   h1{font-size: 20px;}
   //h1{background-color:yellow;}
 }
+
 @media (max-width: 600px) {
+  button{font-size: 8px;}
   ul h3{margin-top:4rem;margin-bottom:5rem;}
   .grid{padding: 10px 10px 10px 10px}
   img{padding: 0;width:100%;height: auto;}
@@ -1328,9 +1316,8 @@ h1{font-size: 22px;}
   html {font-size: 8px;}
   #forcompexp{padding: 10px 10px 10px 10px;  }
   p {font-size: 15px;padding-left:20px;padding-top:10;padding-bottom:80px;}
-.txt {font-size: 7.5px;padding-left:20px;padding-top:80px;padding-bottom:80px;}
-h1{font-size: 18px;}
-.carousel{margin-right:100px;}
-  h1{background-color:blue;}
-
+  .txt {font-size: 7.5px;padding-left:20px;padding-top:80px;padding-bottom:80px;}
+  h1{font-size: 18px;}
+  .carousel{margin-right:100px;}
+  //h1{background-color:blue;}
 }
