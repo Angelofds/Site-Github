@@ -1226,7 +1226,7 @@ p span{
   .txt{font-size: 25px;padding-left:20px;padding-top:10; padding-bottom:266px;}
   .grid{padding: 10px 100px 10px 100px}
   h1{font-size: 32px;}
-  h1{background-color:orange;}
+  //h1{background-color:orange;}
 }
 
 @media (max-width: 1500px){
@@ -1239,7 +1239,7 @@ p span{
   .txt {font-size: 18.75px;padding-left:20px;padding-top:200px;padding-bottom:200px;}
   img{padding: 0;width:100%;height:100%;}
   h1{font-size: 30px;}
-  h1{background-color:black;}
+  //h1{background-color:black;}
 }
 
 @media (max-width: 1250px){
@@ -1251,7 +1251,7 @@ p span{
   p {font-size: 35px;padding-left:20px;padding-top:10;padding-bottom:166.66px;}
   .txt {font-size: 15.75px;padding-left:20px;padding-top:166.66px;padding-bottom:166.66px;}
   h1{font-size: 28px;}
-  h1{background-color:brown;}
+  //h1{background-color:brown;}
 }
 
 @media (max-width: 1000px){
@@ -1264,7 +1264,7 @@ p span{
   .txt {font-size: 12.5px;padding-left:20px;padding-top:65px;padding-bottom:133.33px;}
   img{padding: 0;width:100%;height:100%;}
   h1{font-size: 26px;}
-  h1{background-color:gray;}
+  //h1{background-color:gray;}
 }
 
 @media (max-width: 900px){
@@ -1276,7 +1276,7 @@ p span{
   .txt {font-size: 11.25px;padding-left:20px;padding-top:120px;padding-bottom:120px;}
   img{padding: 0;width:100%;height:100%;}
   h1{font-size: 24px;}
-  h1{background-color:red;}
+  //h1{background-color:red;}
 }
 
 @media (max-width:800px){
@@ -1290,7 +1290,7 @@ p span{
   .txt {font-size: 10px;padding-left:20px;padding-top:106.66px;padding-bottom:106.66px;}
   img{padding: 0;width:100%;height:auto;}
   h1{font-size: 22px;}
-  h1{background-color:pink;}
+  //h1{background-color:pink;}
 }
 
 @media (max-width: 700px){
@@ -1304,7 +1304,7 @@ p span{
   .txt {font-size:12px;padding-left:20px;padding-top:93.33px;padding-bottom:93.33px;}
   img{padding: 0;width:100%;height:auto;}
   h1{font-size: 20px;}
-  h1{background-color:yellow;}
+  //h1{background-color:yellow;}
 }
 
 @media (max-width: 600px) {
@@ -1319,5 +1319,5 @@ p span{
   .txt {font-size: 7.5px;padding-left:20px;padding-top:80px;padding-bottom:80px;}
   h1{font-size: 18px;}
   .carousel{margin-right:100px;}
-  h1{background-color:blue;}
+  //h1{background-color:blue;}
 }
