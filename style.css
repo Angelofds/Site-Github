@@ -108,7 +108,7 @@ body::-webkit-scrollbar-thumb {
 
 .navPages {
   height:5rem;
-  padding: 5px;
+  padding-top: 5rem;
   position:fixed;
   top:0px;
   width:100%;
