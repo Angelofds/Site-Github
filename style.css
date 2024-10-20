@@ -108,7 +108,7 @@ body::-webkit-scrollbar-thumb {
 
 .navPages {
   height:5rem;
-  padding-top: 5rem;
+  padding: 5px;
   position:fixed;
   top:0px;
   width:100%;
@@ -567,13 +567,16 @@ border: 3px  solid rgba(125, 45, 125,0.75) ;
 .experiences{
   padding-left:4rem;
 }
+.CvPage{
+  padding-top: 3rem
+}
 
 .CvPage iframe{
   height:1200px;
   border: 3px solid purple;
   margin:10px;
   border-radius:20px;
-  padding: 100px 10px 10px 30px;
+  padding: 10px 10px 10px 30px;
 }
 
 
